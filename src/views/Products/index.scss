@@ -1,0 +1,14 @@
+@use '../../sass/variables' as *;
+@use '../../sass/mixins' as *;
+
+.products {
+    text-align: center;
+
+    button {
+        @include main-button;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+}   

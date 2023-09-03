@@ -1,0 +1,36 @@
+@use '../../sass/variables' as *;
+
+.home__card {
+        width: 330px;
+        height: 337px;
+        border: 1px solid $border-background-card;
+        border-radius: 8px;
+        text-align: center;
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #252423;
+        margin-bottom: 15px;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+    }
+
+    button {
+        margin-bottom: 15px;
+        background-color: $contrast-color;
+        padding: 7px;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 6px;
+        border: none;
+    }
+
+    button:hover {
+        background-color: rgb(45, 45, 248);
+    }
+    
+}
